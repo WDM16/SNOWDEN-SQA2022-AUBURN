@@ -1,4 +1,4 @@
-
+#sample comment
 
 FUNC_KW = 'func'
 LINE_NO_KW = 'lineno'

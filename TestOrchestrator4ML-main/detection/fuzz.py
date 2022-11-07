@@ -63,8 +63,8 @@ def checkNonPermissiveOerations():
     for i in range(100, 120): 
         test_script = string[i]
         #"../../../../../../../../../../../etc/passwd%00"
-        get_test_details(test_script)
-        print(string[i])
+        checkAccuracyTest(test_script)
+        print('Fuzz value checked against: ', string[i])
         print('='*100)
 
 

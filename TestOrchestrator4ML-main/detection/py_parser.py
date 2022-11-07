@@ -1,7 +1,7 @@
 import ast 
 import os 
 import constants 
-import astdump
+#import astdump
 
 def getPythonParseObject( pyFile ): 
 	try:

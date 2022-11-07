@@ -1,5 +1,6 @@
 
 import random
+from py_parser import checkForUnitTestImport
 import os 
 
 FILEPATH = os.path.join(
@@ -59,9 +60,9 @@ def checkNonPermissiveOerations():
     #for operation_ in op_list:
     string = fuzzValues()
     for i in range(100, 110): 
-        operation_ = string[i]
+        pyTree = string[i]
         #"../../../../../../../../../../../etc/passwd%00"
-        simpleCalculator(100, 1, operation_)
+        checkForUnitTestImport(pyTree)
         print('='*100)
 
 

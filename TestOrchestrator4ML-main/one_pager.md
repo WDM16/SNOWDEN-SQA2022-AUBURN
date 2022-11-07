@@ -1,4 +1,4 @@
-In my preliminary exploration, I have observed 69 out of 103 (66.7%) supervised machine learning based repositories to not include test cases at all, which motivates me to study if supervised machine learning based repositories have test cases that check for adversarial attacks. 
+In my preliminary exploration, I have observed 70 out of 103 (66.7%) supervised machine learning based repositories to not include test cases at all, which motivates me to study if supervised machine learning based repositories have test cases that check for adversarial attacks. 
 
 I did a scoping review of the flagship software engineering venues, namely ICSE, FSE, ASE, ISSTA, ICST, and observe label perturbation attack to be under-explored. The threat model to conduct a label perturbation attack is described as follows:
 

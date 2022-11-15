@@ -64,7 +64,16 @@ def checkNonPermissiveOerations():
         test_script = string[i]
         #"../../../../../../../../../../../etc/passwd%00"
         checkAccuracyTest(test_script)
-        print('Fuzz value checked against: ', string[i])
+        print('System: Method 1 Test')
+        print('System: Fuzz value checked against: ', string[i])
+        print('='*100)
+
+    for i in range(100, 120): 
+        test_script = string[i]
+        #"../../../../../../../../../../../etc/passwd%00"
+        get_test_details(test_script)
+        print('System: Method 2 Test')
+        print('System: Fuzz value checked against: ', string[i])
         print('='*100)
 
 

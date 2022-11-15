@@ -1,1 +1,12 @@
-GitHooks: I used what we learned in the workshop to get started with this part of the project. I located the .git folder created by the repository and then located the hooks folder. I found the pre-commit.sample file and saved it as pre-commit to enable the hooks. Initially I did not realize we were doing the hooks in python rather than cpp like the workshop. Another issue I ran into in the begin was my pre-commit file was not exectable. After office hours the professor helped me understand how to make a file exectable. I then did reaserch to realize that bandit is the tool that needed to be used for the hooks. After more reaserch I learned how to use the different commands to have the files scanned and reported to a csv file. You can locate our findings from the git hooks in the "githookoutput.csv" file.From this section of the project I learned how to use git hooks to scan python files. Previously, I only knew how to do this in cpp.
+GitHooks: I used what we learned in the workshop to get started with this part of the project. 
+            I located the .git folder created by the repository and then located the hooks folder. 
+            I found the pre-commit.sample file and saved it as pre-commit to enable the hooks. 
+            Initially I did not realize we were doing the hooks in python rather than cpp like the workshop. 
+            Another issue I ran into in the begin was my pre-commit file was not 
+            exectable. After office hours the professor helped me understand how to 
+            make a file exectable. I then did reaserch to realize that bandit is 
+            the tool that needed to be used for the hooks. After more reaserch 
+            I learned how to use the different commands to have the files scanned and reported 
+            to a csv file. You can locate our findings from the git hooks in 
+            the "githookoutput.csv" file.From this section of the project I learned 
+            how to use git hooks to scan python files. Previously, I only knew how to do this in cpp.

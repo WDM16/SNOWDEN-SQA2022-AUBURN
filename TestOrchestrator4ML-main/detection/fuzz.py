@@ -60,6 +60,8 @@ def checkNonPermissiveOerations():
     #op_list = [x for x in range(100) ]
     #for operation_ in op_list:
     string = fuzzValues()
+
+    #1st Method Fuzzing
     for i in range(100, 120): 
         test_script = string[i]
         #"../../../../../../../../../../../etc/passwd%00"
@@ -68,11 +70,43 @@ def checkNonPermissiveOerations():
         print('System: Fuzz value checked against: ', string[i])
         print('='*100)
 
+    #2nd Method Fuzzing
     for i in range(100, 120): 
         test_script = string[i]
         #"../../../../../../../../../../../etc/passwd%00"
         get_test_details(test_script)
         print('System: Method 2 Test')
+        print('System: Fuzz value checked against: ', string[i])
+        print('='*100)
+
+    #3rd Method Fuzzing
+    for i in range(100, 120): 
+        test_script = string[i]
+        #"../../../../../../../../../../../etc/passwd%00"
+        checkClassificationAlgoTest(test_script)
+        print('System: Method 3 Test')
+        print('System: Fuzz value checked against: ', string[i])
+        print('='*100)
+
+    #4th Method Fuzzing
+    for i in range(100, 120): 
+        test_script = string[i]
+        assert_list = string[i]
+        #"../../../../../../../../../../../etc/passwd%00"
+        chackAttackTest(test_script, assert_list)
+        print('System: Method 4 Test')
+        print('System: Fuzz value checked against: ', string[i])
+        print('='*100)
+
+    #5th Method Fuzzing
+    for i in range(100, 120): 
+        inp_dir = string[i]
+        test_output_csv = string[i]
+        test_assert_output_csv = string[i]
+        flag_output_csv = string[i]
+        #"../../../../../../../../../../../etc/passwd%00"
+        runDetectionTest(inp_dir, test_output_csv, test_assert_output_csv, flag_output_csv)
+        print('System: Method 5 Test')
         print('System: Fuzz value checked against: ', string[i])
         print('='*100)
 

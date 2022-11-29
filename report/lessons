@@ -10,3 +10,20 @@ GitHooks: I used what we learned in the workshop to get started with this part o
             to a csv file. You can locate our findings from the git hooks in 
             the "githookoutput.csv" file.From this section of the project I learned 
             how to use git hooks to scan python files. Previously, I only knew how to do this in cpp.
+
+Fuzzing: For this part of the project, I used portions of the code from the workshop and implemented them
+            into this project. I imported the blns.txt file which includes the Big List of Naughty Strings
+            which was used as our Fuzz values. Once imported, I implemented the fuzz.py file from the 
+            workshop with some adjustments, so that it would call methods in the main.py file located 
+            in the 'detection' directory. After this, I exectuted the file and found several notable things. 
+            One of the things that stood out was how a file was created in the 'detection' directory with 
+            the fuzz value as the file name. Another thing that stood out was also the Traceback error message
+            that displayed at the end of the execution. This message shows how an error was caught during
+            execution, which is handled as expected. With the other fuzz values being created as an actual file
+            within the 'detection' directory, this is unexpected as these fuzz values are not supposed to generate
+            any sort of output, they are supposed to be caught and not allowed to execute. Through this the
+            fuzzing successfully worked and shows how there are some bugs and possible vulnerabilies within
+            the code of main.py. Both of the console output and screenshot of the newly created files can
+            be found in the 'report' directory. The fuzzing workshop and this project helped to 
+            explain how bad inputs are handled in the real world and how it must be 
+            incoporated in testing with every piece of code. 

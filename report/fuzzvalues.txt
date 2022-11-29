@@ -1,0 +1,469 @@
+MacBook-Air-7:detection willmay$ python3 fuzz.py
+metric check:  Ω≈ç√∫˜µ≤≥÷
+metric list   []
+System: Method 1 Test
+System: Fuzz value checked against:  Ω≈ç√∫˜µ≤≥÷
+====================================================================================================
+metric check:  åß∂ƒ©˙∆˚¬…æ
+metric list   []
+System: Method 1 Test
+System: Fuzz value checked against:  åß∂ƒ©˙∆˚¬…æ
+====================================================================================================
+metric check:  œ∑´®†¥¨ˆøπ“‘
+metric list   []
+System: Method 1 Test
+System: Fuzz value checked against:  œ∑´®†¥¨ˆøπ“‘
+====================================================================================================
+metric check:  ¡™£¢∞§¶•ªº–≠
+metric list   []
+System: Method 1 Test
+System: Fuzz value checked against:  ¡™£¢∞§¶•ªº–≠
+====================================================================================================
+metric check:  ¸˛Ç◊ı˜Â¯˘¿
+metric list   []
+System: Method 1 Test
+System: Fuzz value checked against:  ¸˛Ç◊ı˜Â¯˘¿
+====================================================================================================
+metric check:  ÅÍÎÏ˝ÓÔÒÚÆ☃
+metric list   []
+System: Method 1 Test
+System: Fuzz value checked against:  ÅÍÎÏ˝ÓÔÒÚÆ☃
+====================================================================================================
+metric check:  Œ„´‰ˇÁ¨ˆØ∏”’
+metric list   []
+System: Method 1 Test
+System: Fuzz value checked against:  Œ„´‰ˇÁ¨ˆØ∏”’
+====================================================================================================
+metric check:  `⁄€‹›ﬁﬂ‡°·‚—±
+metric list   []
+System: Method 1 Test
+System: Fuzz value checked against:  `⁄€‹›ﬁﬂ‡°·‚—±
+====================================================================================================
+metric check:  ⅛⅜⅝⅞
+metric list   []
+System: Method 1 Test
+System: Fuzz value checked against:  ⅛⅜⅝⅞
+====================================================================================================
+metric check:  
+ЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя
+metric list   []
+System: Method 1 Test
+System: Fuzz value checked against:  
+ЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя
+====================================================================================================
+metric check:  ٠١٢٣٤٥٦٧٨٩
+metric list   []
+System: Method 1 Test
+System: Fuzz value checked against:  ٠١٢٣٤٥٦٧٨٩
+====================================================================================================
+metric check:  ⁰⁴⁵
+metric list   []
+System: Method 1 Test
+System: Fuzz value checked against:  ⁰⁴⁵
+====================================================================================================
+metric check:  ₀₁₂
+metric list   []
+System: Method 1 Test
+System: Fuzz value checked against:  ₀₁₂
+====================================================================================================
+metric check:  ⁰⁴⁵₀₁₂
+metric list   []
+System: Method 1 Test
+System: Fuzz value checked against:  ⁰⁴⁵₀₁₂
+====================================================================================================
+metric check:  ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็
+metric list   []
+System: Method 1 Test
+System: Fuzz value checked against:  ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็
+====================================================================================================
+metric check:  '
+metric list   []
+System: Method 1 Test
+System: Fuzz value checked against:  '
+====================================================================================================
+metric check:  "
+metric list   []
+System: Method 1 Test
+System: Fuzz value checked against:  "
+====================================================================================================
+metric check:  ''
+metric list   []
+System: Method 1 Test
+System: Fuzz value checked against:  ''
+====================================================================================================
+metric check:  ""
+metric list   []
+System: Method 1 Test
+System: Fuzz value checked against:  ""
+====================================================================================================
+metric check:  '"'
+metric list   []
+System: Method 1 Test
+System: Fuzz value checked against:  '"'
+====================================================================================================
+func list   []
+System: Method 2 Test
+System: Fuzz value checked against:  Ω≈ç√∫˜µ≤≥÷
+====================================================================================================
+func list   []
+System: Method 2 Test
+System: Fuzz value checked against:  åß∂ƒ©˙∆˚¬…æ
+====================================================================================================
+func list   []
+System: Method 2 Test
+System: Fuzz value checked against:  œ∑´®†¥¨ˆøπ“‘
+====================================================================================================
+func list   []
+System: Method 2 Test
+System: Fuzz value checked against:  ¡™£¢∞§¶•ªº–≠
+====================================================================================================
+func list   []
+System: Method 2 Test
+System: Fuzz value checked against:  ¸˛Ç◊ı˜Â¯˘¿
+====================================================================================================
+func list   []
+System: Method 2 Test
+System: Fuzz value checked against:  ÅÍÎÏ˝ÓÔÒÚÆ☃
+====================================================================================================
+func list   []
+System: Method 2 Test
+System: Fuzz value checked against:  Œ„´‰ˇÁ¨ˆØ∏”’
+====================================================================================================
+func list   []
+System: Method 2 Test
+System: Fuzz value checked against:  `⁄€‹›ﬁﬂ‡°·‚—±
+====================================================================================================
+func list   []
+System: Method 2 Test
+System: Fuzz value checked against:  ⅛⅜⅝⅞
+====================================================================================================
+func list   []
+System: Method 2 Test
+System: Fuzz value checked against:  
+ЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя
+====================================================================================================
+func list   []
+System: Method 2 Test
+System: Fuzz value checked against:  ٠١٢٣٤٥٦٧٨٩
+====================================================================================================
+func list   []
+System: Method 2 Test
+System: Fuzz value checked against:  ⁰⁴⁵
+====================================================================================================
+func list   []
+System: Method 2 Test
+System: Fuzz value checked against:  ₀₁₂
+====================================================================================================
+func list   []
+System: Method 2 Test
+System: Fuzz value checked against:  ⁰⁴⁵₀₁₂
+====================================================================================================
+func list   []
+System: Method 2 Test
+System: Fuzz value checked against:  ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็
+====================================================================================================
+func list   []
+System: Method 2 Test
+System: Fuzz value checked against:  '
+====================================================================================================
+func list   []
+System: Method 2 Test
+System: Fuzz value checked against:  "
+====================================================================================================
+func list   []
+System: Method 2 Test
+System: Fuzz value checked against:  ''
+====================================================================================================
+func list   []
+System: Method 2 Test
+System: Fuzz value checked against:  ""
+====================================================================================================
+func list   []
+System: Method 2 Test
+System: Fuzz value checked against:  '"'
+====================================================================================================
+algo check:  Ω≈ç√∫˜µ≤≥÷
+algo list   []
+System: Method 3 Test
+System: Fuzz value checked against:  Ω≈ç√∫˜µ≤≥÷
+====================================================================================================
+algo check:  åß∂ƒ©˙∆˚¬…æ
+algo list   []
+System: Method 3 Test
+System: Fuzz value checked against:  åß∂ƒ©˙∆˚¬…æ
+====================================================================================================
+algo check:  œ∑´®†¥¨ˆøπ“‘
+algo list   []
+System: Method 3 Test
+System: Fuzz value checked against:  œ∑´®†¥¨ˆøπ“‘
+====================================================================================================
+algo check:  ¡™£¢∞§¶•ªº–≠
+algo list   []
+System: Method 3 Test
+System: Fuzz value checked against:  ¡™£¢∞§¶•ªº–≠
+====================================================================================================
+algo check:  ¸˛Ç◊ı˜Â¯˘¿
+algo list   []
+System: Method 3 Test
+System: Fuzz value checked against:  ¸˛Ç◊ı˜Â¯˘¿
+====================================================================================================
+algo check:  ÅÍÎÏ˝ÓÔÒÚÆ☃
+algo list   []
+System: Method 3 Test
+System: Fuzz value checked against:  ÅÍÎÏ˝ÓÔÒÚÆ☃
+====================================================================================================
+algo check:  Œ„´‰ˇÁ¨ˆØ∏”’
+algo list   []
+System: Method 3 Test
+System: Fuzz value checked against:  Œ„´‰ˇÁ¨ˆØ∏”’
+====================================================================================================
+algo check:  `⁄€‹›ﬁﬂ‡°·‚—±
+algo list   []
+System: Method 3 Test
+System: Fuzz value checked against:  `⁄€‹›ﬁﬂ‡°·‚—±
+====================================================================================================
+algo check:  ⅛⅜⅝⅞
+algo list   []
+System: Method 3 Test
+System: Fuzz value checked against:  ⅛⅜⅝⅞
+====================================================================================================
+algo check:  
+ЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя
+algo list   []
+System: Method 3 Test
+System: Fuzz value checked against:  
+ЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя
+====================================================================================================
+algo check:  ٠١٢٣٤٥٦٧٨٩
+algo list   []
+System: Method 3 Test
+System: Fuzz value checked against:  ٠١٢٣٤٥٦٧٨٩
+====================================================================================================
+algo check:  ⁰⁴⁵
+algo list   []
+System: Method 3 Test
+System: Fuzz value checked against:  ⁰⁴⁵
+====================================================================================================
+algo check:  ₀₁₂
+algo list   []
+System: Method 3 Test
+System: Fuzz value checked against:  ₀₁₂
+====================================================================================================
+algo check:  ⁰⁴⁵₀₁₂
+algo list   []
+System: Method 3 Test
+System: Fuzz value checked against:  ⁰⁴⁵₀₁₂
+====================================================================================================
+algo check:  ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็
+algo list   []
+System: Method 3 Test
+System: Fuzz value checked against:  ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็
+====================================================================================================
+algo check:  '
+algo list   []
+System: Method 3 Test
+System: Fuzz value checked against:  '
+====================================================================================================
+algo check:  "
+algo list   []
+System: Method 3 Test
+System: Fuzz value checked against:  "
+====================================================================================================
+algo check:  ''
+algo list   []
+System: Method 3 Test
+System: Fuzz value checked against:  ''
+====================================================================================================
+algo check:  ""
+algo list   []
+System: Method 3 Test
+System: Fuzz value checked against:  ""
+====================================================================================================
+algo check:  '"'
+algo list   []
+System: Method 3 Test
+System: Fuzz value checked against:  '"'
+====================================================================================================
+attack check:  Ω≈ç√∫˜µ≤≥÷
+metric lhs list  []
+System: Method 4 Test
+System: Fuzz value checked against:  Ω≈ç√∫˜µ≤≥÷
+====================================================================================================
+attack check:  åß∂ƒ©˙∆˚¬…æ
+metric lhs list  []
+System: Method 4 Test
+System: Fuzz value checked against:  åß∂ƒ©˙∆˚¬…æ
+====================================================================================================
+attack check:  œ∑´®†¥¨ˆøπ“‘
+metric lhs list  []
+System: Method 4 Test
+System: Fuzz value checked against:  œ∑´®†¥¨ˆøπ“‘
+====================================================================================================
+attack check:  ¡™£¢∞§¶•ªº–≠
+metric lhs list  []
+System: Method 4 Test
+System: Fuzz value checked against:  ¡™£¢∞§¶•ªº–≠
+====================================================================================================
+attack check:  ¸˛Ç◊ı˜Â¯˘¿
+metric lhs list  []
+System: Method 4 Test
+System: Fuzz value checked against:  ¸˛Ç◊ı˜Â¯˘¿
+====================================================================================================
+attack check:  ÅÍÎÏ˝ÓÔÒÚÆ☃
+metric lhs list  []
+System: Method 4 Test
+System: Fuzz value checked against:  ÅÍÎÏ˝ÓÔÒÚÆ☃
+====================================================================================================
+attack check:  Œ„´‰ˇÁ¨ˆØ∏”’
+metric lhs list  []
+System: Method 4 Test
+System: Fuzz value checked against:  Œ„´‰ˇÁ¨ˆØ∏”’
+====================================================================================================
+attack check:  `⁄€‹›ﬁﬂ‡°·‚—±
+metric lhs list  []
+System: Method 4 Test
+System: Fuzz value checked against:  `⁄€‹›ﬁﬂ‡°·‚—±
+====================================================================================================
+attack check:  ⅛⅜⅝⅞
+metric lhs list  []
+System: Method 4 Test
+System: Fuzz value checked against:  ⅛⅜⅝⅞
+====================================================================================================
+attack check:  
+ЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя
+metric lhs list  []
+System: Method 4 Test
+System: Fuzz value checked against:  
+ЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя
+====================================================================================================
+attack check:  ٠١٢٣٤٥٦٧٨٩
+metric lhs list  []
+System: Method 4 Test
+System: Fuzz value checked against:  ٠١٢٣٤٥٦٧٨٩
+====================================================================================================
+attack check:  ⁰⁴⁵
+metric lhs list  []
+System: Method 4 Test
+System: Fuzz value checked against:  ⁰⁴⁵
+====================================================================================================
+attack check:  ₀₁₂
+metric lhs list  []
+System: Method 4 Test
+System: Fuzz value checked against:  ₀₁₂
+====================================================================================================
+attack check:  ⁰⁴⁵₀₁₂
+metric lhs list  []
+System: Method 4 Test
+System: Fuzz value checked against:  ⁰⁴⁵₀₁₂
+====================================================================================================
+attack check:  ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็
+metric lhs list  []
+System: Method 4 Test
+System: Fuzz value checked against:  ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็
+====================================================================================================
+attack check:  '
+metric lhs list  []
+System: Method 4 Test
+System: Fuzz value checked against:  '
+====================================================================================================
+attack check:  "
+metric lhs list  []
+System: Method 4 Test
+System: Fuzz value checked against:  "
+====================================================================================================
+attack check:  ''
+metric lhs list  []
+System: Method 4 Test
+System: Fuzz value checked against:  ''
+====================================================================================================
+attack check:  ""
+metric lhs list  []
+System: Method 4 Test
+System: Fuzz value checked against:  ""
+====================================================================================================
+attack check:  '"'
+metric lhs list  []
+System: Method 4 Test
+System: Fuzz value checked against:  '"'
+====================================================================================================
+System: Method 5 Test
+System: Fuzz value checked against:  Ω≈ç√∫˜µ≤≥÷
+====================================================================================================
+System: Method 5 Test
+System: Fuzz value checked against:  åß∂ƒ©˙∆˚¬…æ
+====================================================================================================
+System: Method 5 Test
+System: Fuzz value checked against:  œ∑´®†¥¨ˆøπ“‘
+====================================================================================================
+System: Method 5 Test
+System: Fuzz value checked against:  ¡™£¢∞§¶•ªº–≠
+====================================================================================================
+System: Method 5 Test
+System: Fuzz value checked against:  ¸˛Ç◊ı˜Â¯˘¿
+====================================================================================================
+System: Method 5 Test
+System: Fuzz value checked against:  ÅÍÎÏ˝ÓÔÒÚÆ☃
+====================================================================================================
+System: Method 5 Test
+System: Fuzz value checked against:  Œ„´‰ˇÁ¨ˆØ∏”’
+====================================================================================================
+System: Method 5 Test
+System: Fuzz value checked against:  `⁄€‹›ﬁﬂ‡°·‚—±
+====================================================================================================
+System: Method 5 Test
+System: Fuzz value checked against:  ⅛⅜⅝⅞
+====================================================================================================
+System: Method 5 Test
+System: Fuzz value checked against:  
+ЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя
+====================================================================================================
+System: Method 5 Test
+System: Fuzz value checked against:  ٠١٢٣٤٥٦٧٨٩
+====================================================================================================
+System: Method 5 Test
+System: Fuzz value checked against:  ⁰⁴⁵
+====================================================================================================
+System: Method 5 Test
+System: Fuzz value checked against:  ₀₁₂
+====================================================================================================
+System: Method 5 Test
+System: Fuzz value checked against:  ⁰⁴⁵₀₁₂
+====================================================================================================
+Traceback (most recent call last):
+  File "/Users/willmay/Desktop/Software Quality Assurance (Comp 
+5710)/SNOWDEN-SQA2022-AUBURN/TestOrchestrator4ML-main/detection/fuzz.py", 
+line 126, in <module>
+    simpleFuzzer()
+  File "/Users/willmay/Desktop/Software Quality Assurance (Comp 
+5710)/SNOWDEN-SQA2022-AUBURN/TestOrchestrator4ML-main/detection/fuzz.py", 
+line 117, in simpleFuzzer
+    checkNonPermissiveOerations() 
+  File "/Users/willmay/Desktop/Software Quality Assurance (Comp 
+5710)/SNOWDEN-SQA2022-AUBURN/TestOrchestrator4ML-main/detection/fuzz.py", 
+line 108, in checkNonPermissiveOerations
+    runDetectionTest(inp_dir, test_output_csv, test_assert_output_csv, 
+flag_output_csv)
+  File "/Users/willmay/Desktop/Software Quality Assurance (Comp 
+5710)/SNOWDEN-SQA2022-AUBURN/TestOrchestrator4ML-main/detection/main.py", 
+line 107, in runDetectionTest
+    flag_df.to_csv(flag_output_csv ,index=False, encoding= 
+constants.UTF_ENCODING)  
+  File 
+"/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pandas/core/generic.py", 
+line 3551, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File 
+"/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pandas/io/formats/format.py", 
+line 1180, in to_csv
+    csv_formatter.save()
+  File 
+"/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pandas/io/formats/csvs.py", 
+line 241, in save
+    with get_handle(
+  File 
+"/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pandas/io/common.py", 
+line 786, in get_handle
+    handle = open(
+OSError: [Errno 63] File name too long: 'ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็'
+MacBook-Air-7:detection willmay$ 
+

@@ -10,5 +10,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@main
 
-      - name: Run Codacy Analysis CLI
-        uses: codacy/codacy-analysis-cli-action@master
+      - name: execute python file # run file
+        run: |
+          python3 fuzz.py

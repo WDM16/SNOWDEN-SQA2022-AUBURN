@@ -3,12 +3,21 @@ name: Codacy Analysis CLI
 on: ["push"]
 
 jobs:
-  name: Codacy Analysis CLI
-  runs-on: ubuntu-latest
-  steps:
-    - name: Checkout code
-      uses: actions/checkout@main
+  codacy-analysis-cli:
+    name: Codacy Analysis CLI
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@main
+        
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8 #install the python needed
+          - name: Install dependencies
+          run: |
+            python -m pip install --upgrade pip
 
-    - name: execute python file # run file
-      run: |
-        python TestOrchestrator4ML-main/detection/fuzz.py
+      - name: execute python file # run file
+        run: |
+          python TestOrchestrator4ML-main/detection/fuzz.py

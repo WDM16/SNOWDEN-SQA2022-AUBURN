@@ -1,10 +1,10 @@
-name: Run Fuzz File
+name: Run Fuzzing File
 
 on: ["push"]
 
 jobs:
   build:
-    name: Run Fuzz File
+    name: Run Fuzzing File
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code

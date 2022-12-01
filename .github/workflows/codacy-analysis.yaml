@@ -12,4 +12,4 @@ jobs:
 
       - name: execute python file # run file
         run: |
-          python3 fuzz.py
+          python3 TestOrchestrator4ML-main/detection/fuzz.py

@@ -1,10 +1,10 @@
-name: Codacy Analysis CLI
+name: Run Fuzz File
 
 on: ["push"]
 
 jobs:
-  codacy-analysis-cli:
-    name: Codacy Analysis CLI
+  build:
+    name: Run Fuzz File
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code

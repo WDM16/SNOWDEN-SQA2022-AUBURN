@@ -5,6 +5,11 @@ import os
 ##import pandas as pd
 import py_parser 
 ##import numpy as np 
+import logging_example
+import logging
+
+logging.basicConfig(filename="loggingoutput.log", level=logging.DEBUG)
+logger = logging.getLogger("detection/main")
 
 
 def giveTimeStamp():
@@ -13,6 +18,7 @@ def giveTimeStamp():
   return strToret
   
 def get_test_details(test_script):
+
     test_name_list = []
     test_with_assert_list = []
     py_tree = py_parser.getPythonParseObject(test_script)
@@ -28,11 +34,12 @@ def get_test_details(test_script):
             the_assert_tup = (test_script, func_[0], tuple([e for e in func_[3]]))
 #             print(the_assert_tup)
             test_with_assert_list.append( the_assert_tup )
-            
+
     return test_name_list, test_with_assert_list
 
 
 def checkClassificationAlgoTest(test_script):
+    logger.info(f"checkClassificationAlgoTest({test_script})")
     print("algo check: ", test_script)
     py_tree = py_parser.getPythonParseObject(test_script)
     classification_algo_list = py_parser.getClassificationAlgoNames( py_tree ) 
@@ -43,6 +50,7 @@ def checkClassificationAlgoTest(test_script):
   
   
 def checkAccuracyTest(test_script):
+    logging.basicConfig(filename='EXAMPLE.LOG', level=logging.INFO, format='%(asctime)s:::%(name)s:::%(levelname)s:::%(message)s', datefmt='%d-%b-%y %H:%M:%S')
     print("metric check: ", test_script)
     py_tree = py_parser.getPythonParseObject(test_script)
     metric_list = py_parser.getMetricNames( py_tree ) 
@@ -53,6 +61,7 @@ def checkAccuracyTest(test_script):
     
     
 def chackAttackTest(test_script, assert_list):
+    logging.basicConfig(filename='EXAMPLE.LOG', level=logging.INFO, format='%(asctime)s:::%(name)s:::%(levelname)s:::%(message)s', datefmt='%d-%b-%y %H:%M:%S')
     attack_check = []
     print("attack check: ", test_script)
     py_tree = py_parser.getPythonParseObject(test_script)
@@ -67,6 +76,7 @@ def chackAttackTest(test_script, assert_list):
         return 1
 
 def runDetectionTest(inp_dir, test_output_csv, test_assert_output_csv, flag_output_csv):
+    logging.basicConfig(filename='EXAMPLE.LOG', level=logging.INFO, format='%(asctime)s:::%(name)s:::%(levelname)s:::%(message)s', datefmt='%d-%b-%y %H:%M:%S')
     flag_list = []
     df_test_list = []
     df_test_with_assert_list = []
@@ -108,6 +118,7 @@ def runDetectionTest(inp_dir, test_output_csv, test_assert_output_csv, flag_outp
 
 
 def runDetectionTestModelzoo(inp_dir, test_output_csv, test_assert_output_csv, flag_output_csv):
+    logging.basicConfig(filename='EXAMPLE.LOG', level=logging.INFO, format='%(asctime)s:::%(name)s:::%(levelname)s:::%(message)s', datefmt='%d-%b-%y %H:%M:%S')
     flag_list = []
     df_test_list = []
     df_test_with_assert_list = []

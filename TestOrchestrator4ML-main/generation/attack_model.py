@@ -14,11 +14,17 @@ from sklearn.metrics import roc_curve, auc
 from matplotlib import pyplot as plt
 from keras.models import Sequential
 from keras.layers import Dense
+import logging
+
+logging.basicConfig(filename="logoutout.log", level=logging.DEBUG)
+logger = logging.getLogger("generation/attk-model")
 
 def calculate_k(X_train, X_test, y_train, y_test):
     """
     Training our model on all possible K values (odd) from 3 to 10  
     """
+    logger.info(f"calculate_k({X_train} {X_test} {y_train} {y_test})")
+
     kVals = np.arange(3,10,2)
     accuracies = []
     for k in kVals:

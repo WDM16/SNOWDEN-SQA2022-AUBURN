@@ -3,6 +3,11 @@ import random
 #from py_parser import *
 from main import *
 import os 
+import logging_example
+import logging
+
+logging.basicConfig(filename="EXAMPLE_LOG.LOG", level=logging.DEBUG)
+logger = logging.getLogger("detection/fuzz")
 
 FILEPATH = os.path.join(
     os.path.abspath(os.path.dirname(os.path.dirname(__file__))), 'blns.txt')
@@ -62,9 +67,10 @@ def checkNonPermissiveOerations():
     string = fuzzValues()
 
     #1st Method Fuzzing
-    for i in range(100, 120): 
+    for i in range(100, 120):
         test_script = string[i]
         #"../../../../../../../../../../../etc/passwd%00"
+        logging.basicConfig(filename='EXAMPLE.LOG', level=logging.INFO, format='%(asctime)s:::%(name)s:::%(levelname)s:::%(message)s', datefmt='%d-%b-%y %H:%M:%S')
         checkAccuracyTest(test_script)
         print('System: Method 1 Test')
         print('System: Fuzz value checked against: ', string[i])
@@ -75,15 +81,18 @@ def checkNonPermissiveOerations():
         test_script = string[i]
         #"../../../../../../../../../../../etc/passwd%00"
         get_test_details(test_script)
+        logging.basicConfig(filename='EXAMPLE.LOG', level=logging.INFO, format='%(asctime)s:::%(name)s:::%(levelname)s:::%(message)s', datefmt='%d-%b-%y %H:%M:%S')
         print('System: Method 2 Test')
         print('System: Fuzz value checked against: ', string[i])
         print('='*100)
+
 
     #3rd Method Fuzzing
     for i in range(100, 120): 
         test_script = string[i]
         #"../../../../../../../../../../../etc/passwd%00"
         checkClassificationAlgoTest(test_script)
+        logging.basicConfig(filename='EXAMPLE.LOG', level=logging.INFO, format='%(asctime)s:::%(name)s:::%(levelname)s:::%(message)s', datefmt='%d-%b-%y %H:%M:%S')
         print('System: Method 3 Test')
         print('System: Fuzz value checked against: ', string[i])
         print('='*100)
@@ -94,6 +103,7 @@ def checkNonPermissiveOerations():
         assert_list = string[i]
         #"../../../../../../../../../../../etc/passwd%00"
         chackAttackTest(test_script, assert_list)
+        logging.basicConfig(filename='EXAMPLE.LOG', level=logging.INFO, format='%(asctime)s:::%(name)s:::%(levelname)s:::%(message)s', datefmt='%d-%b-%y %H:%M:%S')
         print('System: Method 4 Test')
         print('System: Fuzz value checked against: ', string[i])
         print('='*100)
@@ -106,6 +116,7 @@ def checkNonPermissiveOerations():
         flag_output_csv = string[i]
         #"../../../../../../../../../../../etc/passwd%00"
         runDetectionTest(inp_dir, test_output_csv, test_assert_output_csv, flag_output_csv)
+        logging.basicConfig(filename='EXAMPLE.LOG', level=logging.INFO, format='%(asctime)s:::%(name)s:::%(levelname)s:::%(message)s', datefmt='%d-%b-%y %H:%M:%S')
         print('System: Method 5 Test')
         print('System: Fuzz value checked against: ', string[i])
         print('='*100)

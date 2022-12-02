@@ -26,4 +26,11 @@ Fuzzing: For this part of the project, I used portions of the code from the work
             the code of main.py. Both of the console output and screenshot of the newly created files can
             be found in the 'report' directory. The fuzzing workshop and this project helped to 
             explain how bad inputs are handled in the real world and how it must be 
-            incoporated in testing with every piece of code. 
+            incoporated in testing with every piece of code.
+
+
+Forensics: For this I used what we learned from workshop9 on forensics. I used the same logging_example file and imported
+            it into the the detections folder. I then used the import logging called into the fuzz.py and main.py. Then in 5 different methods
+            I called "logging.basicConfig(filename='EXAMPLE.LOG', level=logging.INFO, format='%(asctime)s:::%(name)s:::%(levelname)s:::%(message)s', datefmt='%d-%b-%y %H:%M:%S')".
+            I did this in 5 methods in both main.py and the fuzz.fy file that we created. In the project descrition there was no indication of whether or not an output should be recorded so we do not have
+            a recorded output.
